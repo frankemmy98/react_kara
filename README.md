@@ -1,12 +1,23 @@
-# React + Vite
+# 🎤 React-Kara
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React-Kara is a modern web application built using **React**, **Vite**, and **Tailwind CSS v3**. It serves as a sleek, fast, and highly customizable karaoke or music-focused interface — ideal for experimenting with front-end design, audio integration, or building a music web app.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **React** – Declarative UI library for building interactive interfaces.
+- **Vite** – Lightning-fast build tool and development server.
+- **Tailwind CSS v3** – Utility-first CSS framework with JIT engine for rapid styling.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Preview
+
+![React-Kara Screenshot](https://via.placeholder.com/800x400?text=React-Kara+UI+Preview)
+
+> 🎶 Simple, beautiful landing screen styled with Tailwind and ready for expansion.
+
+---
+
+## 📂 Folder Structure

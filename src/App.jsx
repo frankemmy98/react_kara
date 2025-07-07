@@ -1,10 +1,29 @@
-function App() {
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import Secondpage from "./pages/Secondpage";
+import Navbar from "./components/Navbar";
+import { DataProvider } from "./context/DataContext";
+import { ColorProvider } from "./context/ColorContext";
+import Footer from "./components/Footer";
+
+const App = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 text-white">
-      <h1 className="text-5xl font-extrabold mb-4">🎶 Welcome to React-Kara</h1>
-      <p className="text-lg">Powered by React, Vite & Tailwind CSS v3</p>
+    <div className="overflow-x-hidden font-mont scroll-smooth">
+      <DataProvider>
+        <ColorProvider>
+          <Router>
+            <Navbar />
+            <Routes>
+              <Route path="/" element={<Homepage />} />
+              <Route path="/second_page" element={<Secondpage />} />
+            </Routes>
+            <Footer />
+          </Router>
+        </ColorProvider>
+      </DataProvider>
     </div>
   );
-}
+};
 
 export default App;
